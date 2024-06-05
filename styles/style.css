@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-color: var(--back-color);
+
   font-family: var(--font);
   background-image: var(--back-image);
   background-position: center;
