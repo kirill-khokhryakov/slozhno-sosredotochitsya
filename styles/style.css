@@ -49,8 +49,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-left: 1px solid var(--accent-color);
-  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--main-title-color);
+  border-bottom: 1px solid var(--main-title-color);
   left: 10px;
   bottom: 10px;
 }
@@ -60,8 +60,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-right: 1px solid var(--accent-color);
-  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--main-title-color);
+  border-top: 1px solid var(--main-title-color);
   right: 10px;
   top: 10px;
 }
@@ -79,7 +79,7 @@ align-items: flex-end;
   background-color: transparent;
   border: none;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--button-color);
   font-family: var(--font);
 font-size: 18px;
 font-weight: 400;
@@ -104,7 +104,7 @@ text-align: left;
 
 .header_text {
 
-  background-color: var(--accent-color);
+  background-color: var(--back-color-title);
   font-family: var(--font);
   color: var(--back-color);
 font-size: 18px;
@@ -125,13 +125,13 @@ margin: 40px 10px 0;
 
 
 .main_title {
-  color: var(--accent-color);
+  color: var(--main-title-color);
   font-size: 18px;
 }
 
 .main_content_title {
   font-size: 18px;
-  background-color: var(--accent-color);
+  background-color: var(--back-color-title);
   color: var(--back-color);
   margin-bottom: -7px;
 }
@@ -193,7 +193,7 @@ margin-top: 20px;
 .footer_title {
   padding: 286px 13px;
   font-family: var(--font);
-  color: rgba(219, 0, 255, 1);
+  color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   margin: 38px 3px 0;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -427,4 +427,39 @@ margin-top: 62px;
       .footer_title {
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       }
+}
+
+.word_link {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  color: var(--text-content-color);
+  text-decoration: none;
+}
+
+.word_link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--text-content-color);
+}
+
+.word_link:focus {
+  text-decoration: underline;
+  outline: 1px solid var(--text-content-color);
+}
+
+
+.header__theme-menu-button{
+  cursor: pointer;
+}
+
+.header__theme-menu-button:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--border-color-hover);
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--border-color-hover);
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--border-color-hover);
+  pointer-events: none;
 }

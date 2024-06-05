@@ -4,10 +4,42 @@
 */
 :root {
   --accent-color: rgba(255, 0, 112, 1);
+  --border-color-hover: rgba(255, 0, 112, 0.4);
   --title-color: rgba(219, 0, 255, 1);
   --text-color-dark: rgba(53, 52, 48, 1);
   --text-content-color:rgba(241, 178, 206, 1);
   --back-color: rgba(0, 0, 40, 1);
   --font: "IBM Plex mono", sans-serif;
   --back-image: url(../images/cover-image-dark.png);
+  --button-color: var(--accent-color);
+  --back-color-title: var(--accent-color);
+  --main-title-color: var(--accent-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: rgba(255, 0, 112, 1);
+    --border-color-hover: rgba(255, 0, 112, 0.4);
+    --title-color: rgba(219, 0, 255, 1);
+    --text-color-dark: rgba(53, 52, 48, 1);
+    --text-content-color:rgba(241, 178, 206, 1);
+    --back-color: rgba(0, 0, 40, 1);
+    --font: "IBM Plex mono", sans-serif;
+    --back-image: url(../images/cover-image-dark.png);
+    --button-color: var(--accent-color);
+    --back-color-title: var(--accent-color);
+    --main-title-color: var(--accent-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --back-image: url(../images/cover-image-light.png);
+    --title-color: rgba(255, 194, 230, 1);
+    --text-content-color: var(--text-color-dark);
+    --button-color: var(--text-color-dark);
+    --back-color-title: rgba(255, 141, 203, 1);
+    --main-title-color: var(--text-color-dark);
+    --border-color-hover: var(--text-color-dark);  
+    }
 }
