@@ -40,6 +40,6 @@
     --button-color: var(--text-color-dark);
     --back-color-title: rgba(255, 141, 203, 1);
     --main-title-color: var(--text-color-dark);
-    --border-color-hover: var(--text-color-dark);  
-    }
+    --border-color-hover: var(--text-color-dark);
+  }
 }

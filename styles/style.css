@@ -95,10 +95,9 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   margin: 65px 3px 0;
   text-shadow: 4px 4px 0 var(--accent-color);
-font-size: 116px;
-font-weight: 700;
-line-height: 95.7px;
-text-align: left;
+  font-weight: 700;
+  line-height: 95.7px;
+  text-align: left;
 }
 
 .header_text {
@@ -138,7 +137,6 @@ text-align: left;
   font-weight: 400;
   font: var(--font);
   font-size: 18px;
-  font-weight: 400;
   line-height: 23.4px;
   text-align: left;
 }
@@ -193,20 +191,19 @@ margin-top: 50px;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   margin: 38px 3px 0;
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-size: 116px;
   font-weight: 700;
   line-height: 95.7px;
 }
 
-@media (width > 375px){
+@media (width > 375px) {
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
-@media (375px < width <= 768px){
+@media (375px < width <= 768px) {
 
-  .page{
+  .page {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -218,7 +215,7 @@ margin-top: 50px;
     margin-top: 395px;
   }
 
-  .header_title{
+  .header_title {
     margin-top: 176px;
   }
 
@@ -321,7 +318,7 @@ margin-top: 50px;
   }
 
 
-  .page{
+  .page {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -331,7 +328,7 @@ margin-top: 50px;
     margin-top: 293px;
   }
 
-  .header{
+  .header {
     height: 768px;
   }
 
@@ -350,7 +347,7 @@ margin-top: 50px;
     gap: 20px;
   }
 
-  .main_center{
+  .main_center {
     margin-top: 60px;
   }
 
@@ -475,4 +472,8 @@ margin-top: 50px;
 .header__theme-menu-button_active {
   outline: 1px solid var(--border-color-hover);
   pointer-events: none;
+}
+
+footer {
+  height: 100%;
 }
