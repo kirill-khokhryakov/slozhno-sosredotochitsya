@@ -11,6 +11,7 @@
   background-attachment: fixed;
   margin: 0 auto;
   max-width: 1024px;
+  background-color: var(--back-color);
 }
 
 .header {
@@ -87,6 +88,7 @@
   width: 70px;
   height: 26px;
   align-items: center;
+  cursor: pointer;
 }
 
 .header_title {
@@ -325,15 +327,19 @@ margin-top: 50px;
   }
 
   .header_block {
-    margin-top: 293px;
+    margin-top: 210px;
   }
 
   .header {
     height: 768px;
   }
 
+  .header_title{
+
+  }
+
   .header_text {
-    margin: 130px 50px 0 49.5%;    
+    margin: 130px 50px 0 49.5%;
     width: 49%;
   }
 
@@ -453,11 +459,6 @@ margin-top: 50px;
 .word_link:focus {
   text-decoration: underline;
   outline: 1px solid var(--text-content-color);
-}
-
-
-.header__theme-menu-button {
-  cursor: pointer;
 }
 
 .header__theme-menu-button:focus {
