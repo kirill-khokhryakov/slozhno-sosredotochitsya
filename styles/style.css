@@ -3,7 +3,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-
+  margin: 0 auto;
   font-family: var(--font);
   background-image: var(--back-image);
   background-position: center;
@@ -12,7 +12,6 @@
   background-attachment: fixed;
   max-width: 1024px;
   background-color: var( --back-color-page);
-  margin: 0 auto;
 }
 
 .header {
