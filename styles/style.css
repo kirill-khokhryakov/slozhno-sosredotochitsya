@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
+  margin: 0 auto;
   max-width: 1024px;
   background-color: var( --back-color-page);
 }
