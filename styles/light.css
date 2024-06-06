@@ -12,6 +12,8 @@
   --back-color-title: rgba(255, 141, 203, 1);
   --main-title-color: var(--text-color-dark);
   --border-color-hover: var(--text-color-dark);
+  --back-color-page: rgba(255, 241, 247, 1);
+
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -23,9 +25,6 @@
   display: none;
 }
 
-.page {
-  background-color: white;
-}
 
 .main_content_text {
   font-weight: 400;

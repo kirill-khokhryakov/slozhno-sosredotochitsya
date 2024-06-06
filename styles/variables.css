@@ -14,6 +14,7 @@
   --button-color: var(--accent-color);
   --back-color-title: var(--accent-color);
   --main-title-color: var(--accent-color);
+  --back-color-page: var(--back-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
     --button-color: var(--accent-color);
     --back-color-title: var(--accent-color);
     --main-title-color: var(--accent-color);
+    --back-color-page: var(--back-color);
   }
 }
 
@@ -41,5 +43,6 @@
     --back-color-title: rgba(255, 141, 203, 1);
     --main-title-color: var(--text-color-dark);
     --border-color-hover: var(--text-color-dark);
+    --back-color-page: rgba(255, 241, 247, 1);
   }
 }
