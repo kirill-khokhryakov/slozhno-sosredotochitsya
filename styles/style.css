@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0 auto;
+
   max-width: 1024px;
   background-color: var( --back-color-page);
 }
@@ -182,7 +182,6 @@ margin-top: 50px;
 
 .footer {
   position: relative;
-  height: 100vh;
   text-align: center;
 }
 
