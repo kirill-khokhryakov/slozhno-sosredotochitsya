@@ -143,8 +143,7 @@
   font-size: 18px;
   line-height: 23.4px;
   text-align: left; 
-  font-weight: 400; 
-
+  font-weight: 400;
 }
 
 .content_main {
@@ -503,7 +502,7 @@ margin-top: 54px;
   pointer-events: none;
 }
 
-.page.theme_light .rec { 
+.page.theme_light .rec {
   display: none;
 } 
 
