@@ -139,11 +139,12 @@
 
 .main_content_text {
   color: var(--text-content-color);
-  font-weight: 400;
   font: var(--font);
   font-size: 18px;
   line-height: 23.4px;
-  text-align: left;
+  text-align: left; 
+  font-weight: 400; 
+
 }
 
 .content_main {
@@ -503,14 +504,9 @@ margin-top: 54px;
 }
 
 .page.theme_light .rec { 
-
-  display: none; 
-
+  display: none;
 } 
 
-.main_content_text { 
-  font-weight: 400; 
-} 
 
 @media (375px < width <= 550px) {
 
