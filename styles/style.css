@@ -183,6 +183,7 @@ margin-top: 50px;
 .footer {
   position: relative;
   text-align: center;
+  height: 100%;
 }
 
 .footer_title {
