@@ -232,7 +232,7 @@ margin-top: 50px;
     margin-top: -20px;
   }
 
-  .main_title_start{
+  .main_title_start {
     margin-top: 20px;
   }
 
@@ -315,7 +315,7 @@ margin-top: 50px;
     margin-top: 68px;
   }
 
-  .decorated-zone::before{
+  .decorated-zone::before {
     top: 1000px;
     }
 }
@@ -327,7 +327,7 @@ margin-top: 50px;
     margin-top: 10px;
   }
 
-  .header_title{
+  .header_title {
     margin-top: 80px;
   }
 
@@ -360,7 +360,7 @@ margin-top: 50px;
     gap: 20px;
   }
 
-  .main_title_start{
+  .main_title_start {
     margin-top: 20px;
   }
 
