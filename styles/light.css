@@ -13,6 +13,10 @@
   --main-title-color: var(--text-color-dark);
   --border-color-hover: rgba(50, 49, 45, 0.4);
   --back-color-page: rgba(255, 241, 247, 1);
+  --shadow-link: rgba(255, 141, 203, 1);
+  --link-underline: var(--text-color-dark);
+  --border-color-hover_underline: var(--back-color);
+
 
 
   /* сохраните этот селектор в приведённом виде.
@@ -31,5 +35,8 @@
     --main-title-color: var(--text-color-dark);
     --border-color-hover: var(--text-color-dark);
     --back-color-page: rgba(255, 241, 247, 1);
+    --shadow-link: rgba(255, 141, 203, 1);
+    --link-underline: var(--text-color-dark);
+    --border-color-hover_underline: var(--back-color);
   }
 }
