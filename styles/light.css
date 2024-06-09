@@ -16,6 +16,7 @@
   --shadow-link: rgba(255, 141, 203, 1);
   --link-underline: var(--text-color-dark);
   --border-color-hover_underline: var(--back-color);
+  --border-color-hover_default: var(--text-color-dark);
 
 
 
@@ -38,5 +39,6 @@
     --shadow-link: rgba(255, 141, 203, 1);
     --link-underline: var(--text-color-dark);
     --border-color-hover_underline: var(--back-color);
+    --border-color-hover_default: var(--text-color-dark);
   }
 }

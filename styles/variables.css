@@ -18,5 +18,6 @@
   --shadow-link: var(--accent-color);
   --link-underline: rgba(241, 178, 206, 1);
   --border-color-hover_underline: var(--border-color-hover);
+  --border-color-hover_default: var(--accent-color);
 }
 

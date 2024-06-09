@@ -398,7 +398,7 @@ margin-top: 54px;
     margin-top: 85px;
     display: grid;
     gap: 5px;
-    max-height: 800px;
+
   }
 
   .content_fotos {
@@ -407,7 +407,7 @@ margin-top: 54px;
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     max-width: 1024px;
-    max-height: 760px;
+    max-height: 1050px;
   }
     
   .main_content_fotos {
@@ -455,7 +455,7 @@ margin-top: 54px;
     position: relative;
     text-align: center;
     padding-top: 33%;
-    margin-top: 360px;
+    margin-top: 60px;
     max-height: 768px;
   }
 
@@ -489,13 +489,13 @@ margin-top: 54px;
 
 
 .header__theme-menu-button:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--border-color-hover_underline);
+
+  border-bottom: 1px solid var(--border-color-hover_underline);
   outline: none;
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--border-color-hover);
+  outline: 1px solid var(--border-color-hover_default);
   pointer-events: none;
 }
 
